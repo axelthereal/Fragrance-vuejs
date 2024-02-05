@@ -2,7 +2,6 @@
 #navbar {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
-    background-color: transparent !important;
     transition: 0.4s;
     top: 0;
     z-index: 99 !important;
@@ -16,7 +15,7 @@
 </style>
 
 <template>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black" aria-label="Third navbar example" id="navbar">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" aria-label="Third navbar example" id="navbar">
         <div class="container col-lg-9 col-md-10 col-sm-12">
             <a class="navbar-brand" href="/home">
                 <span id="logo">Fragrance</span>
@@ -56,6 +55,7 @@
                         </a>
                     </li>
                 </ul>
+
             </div>
         </div>
     </nav>
@@ -68,18 +68,22 @@ export default {
     },
     methods: {
         toggleNavbarShrink() {
-            if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-                document.getElementById("navbar").style.padding = "30px 10px";
+            let pageOffset = window.scrollY;
+
+            if (pageOffset > 1) {
+                document.getElementById("navbar").style.padding = "0px 0px";
                 document.getElementById("logo").style.fontSize = "25px";
+                document.getElementById("navbar").style.backgroundColor = "red";
             } else {
                 document.getElementById("navbar").style.padding = "80px 10px";
                 document.getElementById("logo").style.fontSize = "35px";
+                document.getElementById("navbar").style.backgroundColor = "transparent";
             }
         }
     },
     mounted() {
-        // When user scrolls down toggle navbar shrink
-        window.onscroll = function () { this.toggleNavbarShrink(); };
+        // When user scrolls down toggle navbar shrink tmp #0a0a0a
+        window.onscroll = () => { this.toggleNavbarShrink(); };
 
     }
 }

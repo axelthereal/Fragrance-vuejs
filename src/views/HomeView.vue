@@ -8,7 +8,7 @@ import Navbar from "@/components/headerComponents/Navbar.vue"
   <Navbar />
 
   <main>
-    <div class="container">
+    <div class="container  col-lg-9 col-md-10 col-sm-12">
       <br><br><br><br> <br>
       <h1>Title...</h1>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, quas rem inventore fugiat ipsum soluta
