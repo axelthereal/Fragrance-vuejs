@@ -24,7 +24,7 @@ import Navbar from "@/components/headerComponents/Navbar.vue"
 }
 
 .mainbanner .bannertitle {
-  font-size: 6.5rem;
+  font-size: 9.6vw;
   line-height: 6.5rem;
   letter-spacing: 0.9rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
@@ -34,6 +34,14 @@ import Navbar from "@/components/headerComponents/Navbar.vue"
   -webkit-background-clip: text;
   background-clip: text;
   text-transform: uppercase !important;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .mainbanner .bannertitle {
+    font-size: 8vw;
+    /* Adjust the size for smaller screens */
+  }
 }
 </style>
 
@@ -47,7 +55,7 @@ import Navbar from "@/components/headerComponents/Navbar.vue"
     <div class="mainbanner cover-container d-flex w-100 vh-100 p-3 mx-auto flex-column py-5">
       <div class="container col-lg-10 col-md-11 col-sm-12 py-5">
         <div class="bannercontent py-5 d-flex flex-column align-items-center mt-3">
-          <h1 class="fw-bold bannertitle mt-5">FRAGRANCE</h1>
+          <h1 class="fw-bold bannertitle mt-5 pt-5">FRAGRANCE</h1>
         </div>
       </div>
       <div class="cover-banner"></div>
