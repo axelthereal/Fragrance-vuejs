@@ -6,7 +6,7 @@ import Navbar from "@/components/headerComponents/Navbar.vue"
 
 <template>
   <main>
-    <h1>Hello Home</h1>
+    <Navbar />
   </main>
 </template>
 
