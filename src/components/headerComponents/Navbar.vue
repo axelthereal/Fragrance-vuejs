@@ -16,6 +16,10 @@
 .navbar .nav-item a:not(.active) {
     color: #8c9d9a;
 }
+
+.navbar .nav-item a:not(.active):hover {
+    color: #ffffff;
+}
 </style>
 
 <template>
