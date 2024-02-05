@@ -1,13 +1,16 @@
 <style scoped>
-.navbar {
+#navbar {
     padding-top: 20px !important;
     padding-bottom: 20px !important;
     background-color: transparent !important;
+    transition: 0.4s;
+    top: 0;
+    z-index: 99;
 }
 </style>
 
 <template>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black" aria-label="Third navbar example">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black" aria-label="Third navbar example" id="navbar">
         <div class="container col-lg-9 col-md-10 col-sm-12">
             <a class="navbar-brand" href="#">Fragrance</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
