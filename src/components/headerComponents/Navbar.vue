@@ -1,4 +1,10 @@
-<style scoped></style>
+<style scoped>
+.navbar {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+    background-color: transparent !important;
+}
+</style>
 
 <template>
     <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-black" aria-label="Third navbar example">
