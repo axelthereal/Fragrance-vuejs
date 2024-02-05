@@ -24,7 +24,7 @@ import Navbar from "@/components/headerComponents/Navbar.vue"
 }
 
 .mainbanner .bannertitle {
-  font-size: 9.6vw;
+  font-size: 9.5vw;
   line-height: 6.5rem;
   letter-spacing: 0.9rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
