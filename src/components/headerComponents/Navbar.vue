@@ -12,6 +12,10 @@
     font-weight: bold;
     transition: 0.4s;
 }
+
+.navbar .nav-item a:not(.active) {
+    color: #8c9d9a;
+}
 </style>
 
 <template>
@@ -31,16 +35,16 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Collection</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Collection</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav mb-2 mb-sm-0 d-flex justify-content-end gap-2">
