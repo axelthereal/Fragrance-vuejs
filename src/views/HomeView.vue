@@ -9,4 +9,16 @@
   </main>
 </template>
 
-<script></script>
+<script>
+// Homeview.vue
+export default {
+  beforeRouteEnter(to, from, next) {
+    document.title = to.meta.title || "Fragrance";
+    next()
+  },
+  beforeRouteUpdate(to, from, next) {
+    document.title = to.meta.title || "Fragrance";
+    next()
+  }
+}
+</script>
