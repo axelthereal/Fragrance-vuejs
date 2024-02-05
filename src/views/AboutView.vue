@@ -6,4 +6,16 @@
   <h1>This is an about page</h1>
 </template>
 
-<script></script>
+<script>
+// Homeview.vue
+export default {
+  beforeRouteEnter(to, from, next) {
+    document.title = to.meta.title || "Fragrance";
+    next()
+  },
+  beforeRouteUpdate(to, from, next) {
+    document.title = to.meta.title || "Fragrance";
+    next()
+  }
+}
+</script>
