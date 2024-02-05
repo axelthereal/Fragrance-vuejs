@@ -10,6 +10,7 @@ import Navbar from "@/components/headerComponents/Navbar.vue"
   </main>
 </template>
 
+
 <script>
 // Homeview.vue
 export default {
