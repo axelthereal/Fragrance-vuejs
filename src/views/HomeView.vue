@@ -1,4 +1,5 @@
 <script setup>
+import Navbar from "@/components/headerComponents/Navbar.vue"
 </script>
 
 <style scoped></style>
