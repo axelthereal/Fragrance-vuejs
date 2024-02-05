@@ -9,7 +9,7 @@
 
 #logo {
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 600;
     transition: 0.4s;
 }
 
@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" aria-label="Third navbar example" id="navbar">
         <div class="container col-lg-10 col-md-11 col-sm-12">
             <a class="navbar-brand" href="/home">
-                <span id="logo">Fragrance </span>
+                <span id="logo"><span class="bi bi-wind"></span> Fragrance</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
                 aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
@@ -85,7 +85,7 @@ export default {
                 document.getElementById("navbar").style.borderBottom = "1px solid #181717";
             } else {
                 document.getElementById("navbar").style.padding = "30px 15px";
-                document.getElementById("logo").style.fontSize = "35px";
+                document.getElementById("logo").style.fontSize = "30px";
                 document.getElementById("navbar").style.backgroundColor = "transparent";
                 document.getElementById("navbar").style.borderBottom = "1px solid transparent";
             }
