@@ -10,7 +10,11 @@ import Navbar from "@/components/headerComponents/Navbar.vue"
   <main>
 
 
-   
+    <!-- Main-banner -->
+
+    <!-- .../Main-banner -->
+
+
 
 
   </main>
