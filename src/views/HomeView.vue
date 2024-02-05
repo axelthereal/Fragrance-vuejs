@@ -67,7 +67,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
             natural beauty.</p>
 
 
-          <MouseScroll />
+          <MouseScroll class="mouse_scroll_item" />
         </div>
       </div>
 

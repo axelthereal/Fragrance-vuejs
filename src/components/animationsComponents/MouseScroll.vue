@@ -1,11 +1,12 @@
 <style scoped>
 .mouse-bx .mouse {
-    width: 35px;
-    height: 60px;
+    width: 33px;
+    height: 55px;
     border-radius: 50px !important;
     border: 2px solid #ffffff8f;
     display: block;
     cursor: pointer !important;
+    transition: 0.4s;
 }
 
 .mouse-bx .mouse:hover {
