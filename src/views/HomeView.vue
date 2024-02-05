@@ -1,5 +1,6 @@
 <script setup>
-import Navbar from "@/components/headerComponents/Navbar.vue"
+import Navbar from "@/components/headerComponents/Navbar.vue";
+import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 </script>
 
 <style scoped>
