@@ -62,12 +62,17 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
       <div class="container col-lg-10 col-md-11 col-sm-12 py-5">
         <div class="bannercontent py-5 d-flex flex-column align-items-center mt-2">
           <h1 class="fw-bold bannertitle mt-5 pt-5">FRAGRANCE</h1>
-          <p class="banner-txt lead w-50 fw-normal mt-5 opacity-50" align="center">
+          <p class="banner-txt lead fw-normal mt-lg-5 col-lg-5 px-lg-0 col-md-10 opacity-50 px-md-5" align="center">
             Elevates everyday moments to extraordinary and explore the essence of
             natural beauty.</p>
+
+
+          <MouseScroll />
         </div>
       </div>
-      <div class="cover-banner"></div>
+
+
+
     </div>
     <!-- .../Main-banner -->
 
