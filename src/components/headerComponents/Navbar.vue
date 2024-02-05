@@ -73,8 +73,8 @@ export default {
             if (pageOffset > 1) {
                 document.getElementById("navbar").style.padding = "8px 0px";
                 document.getElementById("logo").style.fontSize = "25px";
-                document.getElementById("navbar").style.backgroundColor = "#010101";
-                document.getElementById("navbar").style.borderBottom = "1px solid #111111";
+                document.getElementById("navbar").style.backgroundColor = "#040404";
+                document.getElementById("navbar").style.borderBottom = "1px solid #181717";
             } else {
                 document.getElementById("navbar").style.padding = "30px 15px";
                 document.getElementById("logo").style.fontSize = "35px";
