@@ -7,7 +7,7 @@
 </style>
 
 <template>
-    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-black" aria-label="Third navbar example">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-black" aria-label="Third navbar example">
         <div class="container col-lg-9 col-md-10 col-sm-12">
             <a class="navbar-brand" href="#">Fragrance</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
@@ -15,7 +15,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarsExample03">
+            <div class="collapse navbar-collapse gap-1" id="navbarsExample03">
                 <ul class="navbar-nav mx-auto mb-2 mb-sm-0 justify-content-center gap-3">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -50,4 +50,8 @@
     </nav>
 </template>
 
-<script></script>
+<script>
+export default {
+
+}
+</script>
