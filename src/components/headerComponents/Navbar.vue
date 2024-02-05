@@ -14,7 +14,7 @@
 }
 
 .navbar .nav-item a:not(.active) {
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff80;
 }
 
 .navbar .nav-item a:not(.active):hover {
