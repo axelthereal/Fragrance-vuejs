@@ -5,7 +5,7 @@
     background-color: transparent !important;
     transition: 0.4s;
     top: 0;
-    z-index: 99;
+    z-index: 99 !important;
 }
 
 #logo {
@@ -63,6 +63,9 @@
 
 <script>
 export default {
+    data() {
+        return {}
+    },
     methods: {
         toggleNavbarShrink() {
             if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
@@ -74,9 +77,9 @@ export default {
             }
         }
     },
-    beforeMount() {
+    mounted() {
         // When user scrolls down toggle navbar shrink
-        window.onscroll = function () { scrollFunction() };
+        window.onscroll = function () { this.toggleNavbarShrink(); };
 
     }
 }
