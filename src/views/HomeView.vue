@@ -42,6 +42,12 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
   color: #ffffff80;
 }
 
+.mouse_scroll_item {
+  position: absolute;
+  bottom: 0;
+}
+
+
 /* Media query for smaller screens */
 @media screen and (max-width: 800px) {
   .mainbanner .bannertitle {
