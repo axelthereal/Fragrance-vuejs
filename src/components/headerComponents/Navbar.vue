@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" aria-label="Third navbar example" id="navbar">
         <div class="container col-lg-10 col-md-11 col-sm-12">
             <a class="navbar-brand" href="/home">
-                <span id="logo">Fragrance</span>
+                <span id="logo">Fragrance </span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
                 aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
