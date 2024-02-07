@@ -13,6 +13,22 @@
     transition: 0.4s;
 }
 
+@media only screen and (max-width:768px) {
+    .navbar .nav-item a.nav-link {
+        text-align: center !important;
+    }
+
+    .navbar .nav-item a.nav-link:not(.last) {
+        border-bottom: 1px solid #ffffff10;
+    }
+
+    .navbar .navbar-collapse {
+        background-color: #040404;
+        border-radius: 8px;
+        padding: 8px 15px;
+    }
+}
+
 .navbar .nav-item a:not(.active) {
     color: #ffffff81;
 }
@@ -28,8 +44,9 @@
             <a class="navbar-brand" href="/home">
                 <span id="logo"><span class="bi bi-wind"></span> Fragrance</span>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
-                aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -58,7 +75,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link last" href="#">
                             <span class="bi bi-handbag lead fw-normal"></span>
                         </a>
                     </li>
