@@ -103,11 +103,11 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
             unique and special qualities. </p>
         </div>
         <div class="brands-imgs w-auto d-flex align-items-center justify-content-center">
-          <img src="'/assets/gallery/brand-01.png'" class="brandimages" alt="">
-          <img src="'/assets/gallery/brand-02.png'" class="brandimages" alt="">
-          <img src="'/assets/gallery/brand-04.png'" class="brandimages" alt="">
-          <img src="'/assets/gallery/brand-05.png'" class="brandimages" alt="">
-          <img src="'/assets/gallery/brand-06.png'" class="brandimages" alt="">
+          <img src="/assets/gallery/brand-01.png" class="brandimages" alt="">
+          <img src="/assets/gallery/brand-02.png" class="brandimages" alt="">
+          <img src="/assets/gallery/brand-04.png" class="brandimages" alt="">
+          <img src="/assets/gallery/brand-05.png" class="brandimages" alt="">
+          <img src="/assets/gallery/brand-06.png" class="brandimages" alt="">
         </div>
       </div>
     </div>
