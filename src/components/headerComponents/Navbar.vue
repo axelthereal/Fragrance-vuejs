@@ -13,6 +13,12 @@
     transition: 0.4s;
 }
 
+.navbar-brand img {
+    width: 38px;
+    height: auto;
+    max-width: 100%;
+}
+
 @media only screen and (max-width:768px) {
     .navbar .nav-item a {
         text-align: center !important;
@@ -41,8 +47,8 @@
 <template>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top" aria-label="Third navbar example" id="navbar">
         <div class="container col-lg-10 col-md-11 col-sm-12">
-            <a class="navbar-brand" href="/home">
-                <span id="logo"><span class="bi bi-wind"></span> Fragrance</span>
+            <a class="navbar-brand d-flex align-items-center ms-0 ps-0" href="/home">
+                <img src="/assets/gallery/fragrance-logo.png" alt=""><span id="logo">Fragrance</span>
             </a>
             <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false"
