@@ -97,7 +97,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
             unique and special qualities. </p>
         </div>
         <div class="brands-imgs">
-          <img src="" alt="">
+          <img src="" alt="" v-for="img in 5">
         </div>
       </div>
     </div>
