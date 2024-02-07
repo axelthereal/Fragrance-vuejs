@@ -95,7 +95,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 
     <!-- Brands-banner -->
     <div class="brands-banner py-5 mb-5">
-      <div class="container col-lg-10 col-md-11 col-sm-12 py-5  my-4">
+      <div class="container col-lg-10 col-md-11 col-sm-12 py-5">
         <div class="header" align="center">
           <h5 class="fw-semibold min-title">AS SEEN IN</h5>
           <p class="title-text fs-5 col-lg-6 px-lg-0 col-md-10 opacity-75 mt-2 px-md-5">Meet some of the most prestigious
