@@ -96,6 +96,9 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
             brands that got enchanted by our
             unique and special qualities. </p>
         </div>
+        <div class="brands-imgs">
+          <img src="" alt="">
+        </div>
       </div>
     </div>
     <!-- .../Brands-banner -->
