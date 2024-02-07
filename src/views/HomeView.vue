@@ -65,6 +65,12 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 .brands-banner .title-text {
   color: #8a8a8e;
 }
+
+.brands-banner .brandimages {
+  max-width: 100%;
+  width: 150px;
+  height: auto;
+}
 </style>
 
 <template>
@@ -96,8 +102,12 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
             brands that got enchanted by our
             unique and special qualities. </p>
         </div>
-        <div class="brands-imgs">
-          <img src="" alt="" v-for="img in 5">
+        <div class="brands-imgs w-auto d-flex align-items-center justify-content-center">
+          <img src="'/assets/gallery/brand-01.png'" class="brandimages" alt="">
+          <img src="'/assets/gallery/brand-02.png'" class="brandimages" alt="">
+          <img src="'/assets/gallery/brand-04.png'" class="brandimages" alt="">
+          <img src="'/assets/gallery/brand-05.png'" class="brandimages" alt="">
+          <img src="'/assets/gallery/brand-06.png'" class="brandimages" alt="">
         </div>
       </div>
     </div>
