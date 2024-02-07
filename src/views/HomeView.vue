@@ -67,7 +67,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 }
 
 .brands-banner .brandimages {
-  max-width: 100%;
+  max-width: 100% !important;
   width: 150px;
   height: auto;
 }
