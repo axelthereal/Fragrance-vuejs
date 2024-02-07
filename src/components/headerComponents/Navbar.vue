@@ -14,7 +14,7 @@
 }
 
 .navbar .nav-item a:not(.active) {
-    color: #ffffff80;
+    color: #ffffff84;
 }
 
 .navbar .nav-item a:not(.active):hover {
@@ -39,10 +39,10 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Collection</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Collection</a>
+                        <a class="nav-link" href="#">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Blog</a>
