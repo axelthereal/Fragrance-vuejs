@@ -94,7 +94,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
     <!-- .../Main-banner -->
 
     <!-- Brands-banner -->
-    <div class="brands-banner py-5">
+    <div class="brands-banner py-5 mb-5">
       <div class="container col-lg-10 col-md-11 col-sm-12 py-5  my-4">
         <div class="header" align="center">
           <h5 class="fw-semibold min-title">AS SEEN IN</h5>
@@ -102,12 +102,12 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
             brands that got enchanted by our
             unique and special qualities. </p>
         </div>
-        <div class="brands-imgs w-auto d-flex align-items-center justify-content-center">
-          <img src="/assets/gallery/brand-01.png" class="brandimages" alt="">
-          <img src="/assets/gallery/brand-02.png" class="brandimages" alt="">
-          <img src="/assets/gallery/brand-04.png" class="brandimages" alt="">
-          <img src="/assets/gallery/brand-05.png" class="brandimages" alt="">
-          <img src="/assets/gallery/brand-06.png" class="brandimages" alt="">
+        <div class="mt-lg-1 mt-4 brands-imgs w-100 d-flex align-items-center justify-content-center flex-wrap">
+          <img src="/assets/gallery/brand-01.png" class="brandimages mx-auto my-1" alt="">
+          <img src="/assets/gallery/brand-02.png" class="brandimages mx-auto my-1" alt="">
+          <img src="/assets/gallery/brand-03.png" class="brandimages mx-auto my-1" alt="">
+          <img src="/assets/gallery/brand-04.png" class="brandimages mx-auto my-1" alt="">
+          <img src="/assets/gallery/brand-05.png" class="brandimages mx-auto my-1" alt="">
         </div>
       </div>
     </div>
