@@ -14,13 +14,16 @@
 }
 
 @media only screen and (max-width:768px) {
-    .navbar .nav-item a.nav-link {
+
+    .navbar .nav-item,
+    .navbar .nav-item a {
         text-align: center !important;
+        width: 100%;
     }
 
-    .navbar .nav-item a.nav-link:not(.last) {
+    /*.navbar .nav-item:not(.last) {
         border-bottom: 1px solid #ffffff10;
-    }
+    }*/
 
     .navbar .navbar-collapse {
         background-color: #040404;
@@ -55,7 +58,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item d-flex align-items-center flex-column w-100">
                         <a class="nav-link" href="#">Collection</a>
                     </li>
                     <li class="nav-item">
@@ -74,8 +77,8 @@
                             <span class="bi bi-search lead fw-normal"></span>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link last" href="#">
+                    <li class="nav-item last">
+                        <a class="nav-link" href="#">
                             <span class="bi bi-handbag lead fw-normal"></span>
                         </a>
                     </li>
