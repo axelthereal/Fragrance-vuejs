@@ -39,7 +39,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 }
 
 .banner-txt {
-  color: #ffffff80;
+  color: #ffffff86;
 }
 
 .mouse_scroll_item {

@@ -14,7 +14,7 @@
 }
 
 .navbar .nav-item a:not(.active) {
-    color: #ffffff84;
+    color: #ffffff81;
 }
 
 .navbar .nav-item a:not(.active):hover {
