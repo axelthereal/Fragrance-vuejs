@@ -55,6 +55,16 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
     /* Adjust the size for smaller screens */
   }
 }
+
+
+/* brands-banner */
+.brands-banner {
+  margin-top: 9.5rem;
+}
+
+.brands-banner .title-text {
+  color: #8a8a8e;
+}
 </style>
 
 <template>
@@ -64,7 +74,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 
 
     <!-- Main-banner -->
-    <div class="mainbanner cover-container d-flex w-100 mx-auto flex-column py-5 mb-5">
+    <div class="mainbanner cover-container d-flex w-100 mx-auto flex-column py-5">
       <div class="container col-lg-10 col-md-11 col-sm-12 py-5">
         <div class="bannercontent py-5 d-flex flex-column align-items-center mt-2">
           <h1 class="fw-bold bannertitle mt-5 pt-5">FRAGRANCE</h1>
@@ -78,10 +88,13 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
     <!-- .../Main-banner -->
 
     <!-- Brands-banner -->
-    <div class="brands-banner my-5 py-5">
-      <div class="container col-lg-10 col-md-11 col-sm-12 py-5 my-5">
+    <div class="brands-banner py-5">
+      <div class="container col-lg-10 col-md-11 col-sm-12 py-5  my-4">
         <div class="header" align="center">
           <h5 class="fw-semibold min-title">AS SEEN IN</h5>
+          <p class="title-text fs-5 col-lg-6 px-lg-0 col-md-10 opacity-75 mt-2 px-md-5">Meet some of the most prestigious
+            brands that got enchanted by our
+            unique and special qualities. </p>
         </div>
       </div>
     </div>
