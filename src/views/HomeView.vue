@@ -75,17 +75,14 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 
 
 /* page-banner */
+.page-banner {
+  position: relative;
+  overflow: hidden;
+}
+
 .page-banner .float-img-banner {
   position: absolute;
   width: 50%;
-}
-
-.page-banner .float-img-banner .image {
-  position: relative;
-}
-
-.page-banner .float-img-banner .image img {
-  position: absolute;
 }
 </style>
 
@@ -132,9 +129,12 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 
     <!-- page-banner -->
     <div class="page-banner">
-      <div class="col-lg-12 px-4 py-5">
+      <div class="container col-lg-10 col-md-11 col-sm-12 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-  
+          <div class="float-img-banner">
+
+          </div>
+
         </div>
       </div>
     </div>
