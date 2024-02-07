@@ -71,16 +71,15 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
           <p class="banner-txt lead fw-normal mt-lg-5 col-lg-5 px-lg-0 col-md-10 opacity-50 px-md-5" align="center">
             Elevates everyday moments to extraordinary and explore the essence of
             natural beauty.</p>
-
-
-          <MouseScroll class="mouse_scroll_item" />
+           <MouseScroll class="mouse_scroll_item" />
         </div>
-      </div>
-
-
-
+      </div> 
     </div>
     <!-- .../Main-banner -->
+
+    <!-- Brands-banner -->
+    <div class="brands-banner"></div>
+    <!-- .../Brands-banner -->
 
 
 
