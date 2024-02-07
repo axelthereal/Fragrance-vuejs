@@ -20,3 +20,7 @@ body {
    colors: #ffffff
    lcolors: 
 */
+
+.min-title {
+  letter-spacing: 0.2rem;
+}
