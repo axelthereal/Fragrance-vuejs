@@ -58,11 +58,41 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 
 /* Media query for medium screens */
 @media screen and (max-width:992px) {
+  .page-banner .container .row .col-12 {
+    width: 100% !important;
+  }
+
   .page-banner .banner-min-txt {
     width: 100% !important;
     padding-left: 0px !important;
   }
 
+  .page-banner .img-col {
+    position: relative !important;
+  }
+
+  .floating-img-bx {
+    float: none;
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    border-radius: 45px;
+  }
+
+  .main-img {
+    width: 100% !important;
+    height: auto !important;
+    border-radius: 8px !important;
+  }
+
+  .floating-img-bx img {
+    width: 100% !important;
+    height: auto;
+  }
 }
 
 
@@ -145,17 +175,20 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 
 
     <!-- page-banner -->
-    <div class="page-banner">
+    <div class="page-banner w-100">
       <div class="container col-lg-10 col-md-11 col-sm-12 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-12 col-sm-11 col-lg-6">
-            <img src="/assets/gallery/tempres/profile_girl2.png" class="w-100 h-auto" alt="">
+          <div class="img-col col-12 col-sm-11 col-lg-6">
+            <div class="col-12 col-sm-11 col-lg-4 p-5 floating-img-bx mx-auto">
+              <img src="/assets/gallery/tempres/perfum-body-spray-1.png" alt="">
+            </div>
+            <img src="/assets/gallery/tempres/profile_girl2.png" class="main-img mx-auto w-100 h-auto" alt="">
           </div>
-          <div class="col-12 col-sm-11 col-lg-4 p-5 floating-img-bx">
-            <img src="/assets/gallery/tempres/perfum-body-spray-1.png" alt="">
-          </div>
-          <div class="col-12 col-sm-11 col-lg-6 pe-5 d-flex flex-column gap-5">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
+
+          <div
+            class="col-12 col-sm-11 col-lg-6 pe-5 d-flex vh-100 flex-column justify-content-around align-items-start gap-4">
+            <h1 class="display-5 fw-semibold lh-1 mb-3 min-title text-uppercase">Responsive left-aligned hero with image
+            </h1>
             <p class="lead banner-min-txt fw-normal w-75 pe-2">Quickly design and customize responsive mobile-first sites
               with
               Bootstrap, the

@@ -24,3 +24,6 @@ body {
 .min-title {
   letter-spacing: 0.2rem;
 }
+.text-uppercase {
+  text-transform: uppercase !important;
+}
