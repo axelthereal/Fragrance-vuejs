@@ -56,6 +56,15 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
   }
 }
 
+/* Media query for medium screens */
+@media screen and (max-width:992px) {
+  .page-banner .banner-min-txt {
+    width: 100% !important;
+    padding-left: 0px !important;
+  }
+
+}
+
 
 /* brands-banner */
 .brands-banner {
@@ -147,7 +156,8 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
           </div>
           <div class="col-12 col-sm-11 col-lg-6 pe-5 d-flex flex-column gap-5">
             <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-            <p class="lead banner-min-txt fw-normal w-75">Quickly design and customize responsive mobile-first sites with
+            <p class="lead banner-min-txt fw-normal w-75 pe-2">Quickly design and customize responsive mobile-first sites
+              with
               Bootstrap, the
               world’s
               most
