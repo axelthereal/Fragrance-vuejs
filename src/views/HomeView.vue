@@ -211,9 +211,9 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="img-col col-12 col-sm-11 col-lg-6">
             <div class="col-12 col-sm-11 col-lg-4 p-5 floating-img-bx mx-auto">
-              <img src="/assets/gallery/tempres/perfum-body-spray-1.png" alt="">
+              <img src="/assets/gallery/perfum-body-spray-1.png" alt="">
             </div>
-            <img src="/assets/gallery/tempres/profile_girl.jpg" class="main-img mx-auto w-100 h-auto" alt="">
+            <img src="/assets/gallery/profile_girl.jpg" class="main-img mx-auto w-100 h-auto" alt="">
           </div>
 
           <div
