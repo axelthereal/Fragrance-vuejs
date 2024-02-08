@@ -129,11 +129,11 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 
     <!-- page-banner -->
     <div class="page-banner">
+      <div class="float-img-banner mx-auto bg-primary p-5">
+      </div>
       <div class="container col-lg-10 col-md-11 col-sm-12 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="float-img-banner">
 
-          </div>
 
         </div>
       </div>
