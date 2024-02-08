@@ -79,6 +79,22 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
   position: relative;
   overflow: hidden;
 }
+
+.floating-img-bx {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.floating-img-bx img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.page-banner .banner-min-txt {}
 </style>
 
 <template>
@@ -129,9 +145,15 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
           <div class="col-12 col-sm-11 col-lg-6">
             <img src="/assets/gallery/tempres/profile_girl2.png" class="w-100 h-auto" alt="">
           </div>
-          <div class="col-12 col-sm-11 col-lg-6">
+          <div class="col-12 col-sm-11 col-lg-4 p-5 floating-img-bx">
+            <img src="/assets/gallery/tempres/perfum-body-spray-1.png" alt="">
+          </div>
+          <div class="col-12 col-sm-11 col-lg-6 pe-5">
             <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-            <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+            <p class="lead banner-min-txt fw-normal">Quickly design and customize responsive mobile-first sites with
+              Bootstrap, the
+              world’s
+              most
               popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
               extensive prebuilt components, and powerful JavaScript plugins.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
