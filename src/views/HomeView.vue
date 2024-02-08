@@ -57,7 +57,14 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 }
 
 /* Media query for medium screens */
-@media screen and (max-width:992px) {
+@media screen and (min-width:994px) and (max-width: 1200px) {
+  .page-banner .banner-min-txt {
+    width: 90% !important;
+    padding-left: 0px !important;
+  }
+}
+
+@media screen and (max-width:993px) {
   .page-banner .container .row .col-12 {
     width: 100% !important;
   }
@@ -78,18 +85,22 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
     background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
+    width: 80%;
     height: 100%;
-    border-radius: 45px;
+    border-radius: 8px;
   }
 
-  .main-img {
+  .page-banner img.main-img {
     width: 100% !important;
-    height: auto !important;
+    height: 100% !important;
     border-radius: 8px !important;
+    position: unset !important;
+    object-fit: contain !important;
+    display: flex !important;
+    z-index: 1 !important;
   }
 
-  .floating-img-bx img {
+  .floating-img-bx img:not(.main-img) {
     width: 100% !important;
     height: auto;
   }
@@ -119,6 +130,10 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
   overflow: hidden;
 }
 
+.page-banner .banner-min-txt {
+  color: #b2b2b9;
+}
+
 .floating-img-bx {
   float: none;
   position: absolute;
@@ -130,6 +145,22 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 .floating-img-bx img {
   width: 33vw;
   height: auto;
+}
+
+.page-banner .cover {
+  position: relative;
+  display: block;
+  border: 1px solid yellow;
+}
+
+.page-banner .main-img {
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: fill;
+  display: block;
+  border-radius: 8px;
 }
 </style>
 
@@ -182,7 +213,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
             <div class="col-12 col-sm-11 col-lg-4 p-5 floating-img-bx mx-auto">
               <img src="/assets/gallery/tempres/perfum-body-spray-1.png" alt="">
             </div>
-            <img src="/assets/gallery/tempres/profile_girl2.png" class="main-img mx-auto w-100 h-auto" alt="">
+            <img src="/assets/gallery/tempres/profile_girl.jpg" class="main-img mx-auto w-100 h-auto" alt="">
           </div>
 
           <div
