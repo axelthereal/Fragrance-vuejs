@@ -89,12 +89,9 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 }
 
 .floating-img-bx img {
-  max-width: 100%;
-  width: 100%;
+  width: 33vw;
   height: auto;
 }
-
-.page-banner .banner-min-txt {}
 </style>
 
 <template>
@@ -148,9 +145,9 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
           <div class="col-12 col-sm-11 col-lg-4 p-5 floating-img-bx">
             <img src="/assets/gallery/tempres/perfum-body-spray-1.png" alt="">
           </div>
-          <div class="col-12 col-sm-11 col-lg-6 pe-5">
+          <div class="col-12 col-sm-11 col-lg-6 pe-5 d-flex flex-column gap-5">
             <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-            <p class="lead banner-min-txt fw-normal">Quickly design and customize responsive mobile-first sites with
+            <p class="lead banner-min-txt fw-normal w-75">Quickly design and customize responsive mobile-first sites with
               Bootstrap, the
               world’s
               most
