@@ -228,7 +228,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
               popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
               extensive prebuilt components, and powerful JavaScript plugins.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2 rounded rounded-5">Primary</button>
             </div>
           </div>
         </div>
