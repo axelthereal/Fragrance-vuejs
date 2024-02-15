@@ -162,6 +162,10 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
   display: block;
   border-radius: 8px;
 }
+
+.text-underline {
+  text-decoration: underline;
+}
 </style>
 
 <template>
