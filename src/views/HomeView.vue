@@ -243,8 +243,6 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
     </div>
     <!-- page-banner -->
 
-
-
   </main>
 </template>
 
