@@ -246,7 +246,7 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 
     <br>
     <div class="onscrollbanner d-flex justify-content-start nowrap bg-secondary-subtle vh-100 w-100 my-5"
-      id="onscrollbanner">
+      id="onscrollbanner" v-on:mouseover="setScrollEffect">
       <div class="onscrollbx border border-3 border-black w-100 p-5">
         <h1 class="display-1 fw-bold text-black">Styled Bottle Of <br>Fresh Air !</h1>
       </div>
@@ -268,6 +268,18 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
 <script>
 // Homeview.vue
 export default {
+  data() {
+    return {
+    }
+  },
+  methods: {
+    setScrollEffect() {
+      console.log("Scroll set...");
+    },
+    scrollAnimationHandler() {
+
+    }
+  },
   beforeRouteEnter(to, from, next) {
     document.title = to.meta.title || "Fragrance";
     next()
