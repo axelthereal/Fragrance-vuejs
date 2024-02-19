@@ -243,6 +243,24 @@ import MouseScroll from "@/components/animationsComponents/MouseScroll.vue";
     </div>
     <!-- page-banner -->
 
+
+    <br>
+    <div class="onscrollbanner d-flex justify-content-start nowrap bg-secondary-subtle vh-100 w-100 my-5"
+      id="onscrollbanner">
+      <div class="onscrollbx border border-3 border-black w-100 p-5">
+        <h1 class="display-1 fw-bold text-black">Styled Bottle Of <br>Fresh Air !</h1>
+      </div>
+      <div class="onscrollbx border border-3 border-black w-50 p-5">
+        <h1 class="display-1 fw-bold text-black">Styled Bottle Of <br>Fresh Air !</h1>
+      </div>
+      <div class="onscrollbx border border-3 border-black w-50 p-5">
+        <h1 class="display-1 fw-bold text-black">Styled Bottle Of <br>Fresh Air !</h1>
+      </div>
+    </div>
+
+
+
+
   </main>
 </template>
 
